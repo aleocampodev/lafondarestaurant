@@ -1,0 +1,289 @@
+@media only screen and (min-width:1201){ /*desde 1201 hacia infinito*/
+
+
+}
+
+
+@media only screen and (max-width:1200px) { /* desde 900px hasta 1200*/
+   body{
+     font-size:20px;
+   }
+
+   section{padding:60px 0;}
+
+   .hero-text-box{
+     widows: 100%;padding: 0 2%;
+   }
+
+   .row{
+     padding: 0 2%;
+   }
+
+   .logo{
+     margin-left:15px;
+   }
+
+   .logo-black{
+     margin-left:15px;
+   }
+  
+  .hero-text-box{
+    
+      margin-top:5%;
+      margin-left:10px;
+      left:0;
+      transform:none;
+      font-size:15px;
+  
+    
+  }
+
+  .steps-box{margin-top:10px;}
+  .steps-box:last-child {margin-top:10px;}
+  .works-steps{margin-bottom:40px;}
+  .works-steps:last-of-type{margin-bottom: 60px;}
+
+  .app-screen {width:50%;}
+
+  .icon-small{
+    width:20px;
+    margin-right:5px;
+  }
+
+  .city-feature{font-size:90%;}
+
+  .plan-box{
+    width:100%;
+    margin-left:0%;
+  }
+
+  .plan-price {
+    font-size: 250%;
+  }
+
+  .contact-form {width:80%;}
+  
+
+  
+}
+
+                              
+@media only screen and (max-width:900px) {  /*Tablet 600 a 900px*/  
+  body{ font-size: 18px;}
+  section{ padding: 60px 0;}
+
+  .row,
+  .hero-text-box{padding:0 4%;}
+
+  .hero-text-box{
+    margin-top:10%;
+  }
+
+  .col{
+    width:100%;
+    margin:0 0 4% 0;
+  }
+
+  .mobile-nav-icon{
+    display:inline-block;
+  }
+
+  .main-nav{
+    /*justify-content:flex-start;*/
+    display:none;
+    float:left;
+    flex-direction:column;
+
+    & li {
+      margin-top:5px;
+      padding:2px;
+
+      & a:link, & a:visited{
+        display:block;
+        border:0;
+        padding: 2px 0;
+        font-size:100%;
+      }
+    }
+  }
+
+  .sticky {
+     & .main-nav li a:link, & .main-nav li a:visited{
+       padding:2px 0;
+     }
+
+     & .mobile-nav-icon {
+       margin-top:12px;
+     }
+  }
+
+
+
+  h1{
+    font-size:200%;
+  }
+
+  h2{
+    font-size:200%;
+  }
+
+  .long-copy{
+    width:100%;
+    margin-left:0%;
+  }
+
+  .app-screen {width:40%;}
+  .steps-box:first-child {text-align:center;}
+
+  .work-step div{
+    height:40px;
+    width:40px;
+    margin-right:15px;
+    padding:4px;
+    font-size:120%;
+  }
+
+  
+  .works-steps {
+    margin-bottom:20px;
+
+    &:last-of-type{
+      margin-bottom: 20px;
+    }
+  
+  }
+ 
+}
+@media (min-width:0) and (max-width:600px){ /*telefonos moviles desde 0 hasta 600px*/
+  body{font-size:16px;}
+  section{padding:25px 0;}
+  .contact-form {width:100%;}
+  
+  
+
+  
+
+
+
+
+   /*div .main-nav{
+     display:none;
+     margin-bottom:-1025px;
+   }
+   .mobile-nav-icon{
+      display:inline-block;
+      position:absolute;
+      right:30px;
+      top:3px;
+      cursor:pointer;
+    }
+  
+
+  .main-nav{
+    display:flex;
+    flex-direction:column;
+    margin-left:-5px;
+
+
+
+    & li{
+      margin-top:8px;
+
+      & a:link,
+      & a:visited{
+        border:0;
+        padding:10px 0;
+      }
+    }
+  }*/
+
+  /*div.hero-text-box{
+   
+    left:0;
+    bottom:0;
+    margin-left:5px;
+
+    & h1{
+      margin-bottom:15px;
+    }
+  }
+
+  /*.sticky {
+      & .main-nav {
+      display:none;
+      margin-left:4px;
+      margin-top:15px;
+      margin-bottom:15px;
+
+      & li{
+      margin-left:0; 
+
+        & a:link,
+        & a:visited {
+          padding:10px 0;
+        }
+      }
+    }
+    
+
+    & .mobile-nav-icon{
+        margin-top:-1px;
+        margin-right:4px;
+
+      & i{
+        color:#555;
+      }
+    }
+  }*/
+
+ /* h1 {
+    font-size:180%;
+    margin-bottom:0;
+
+    &:nth-child(1){
+      font-size:144%;
+    }
+  }
+
+  h2{
+    font-size: 150%;
+  }
+
+  .long-copy{
+    width:100%;
+    margin-left:0%;
+  }
+
+  .app-screen{
+    width:40%;
+  }
+
+  div.steps-box{
+  
+    &:first-child{
+      text-align:center;
+    }
+  }
+
+  .works-step {
+    margin-bottom:20px;
+  
+    & div{
+      height:40px;
+      width:40px;
+      margin-right:15px;
+      padding:4px;
+      font-size:120%;
+    }
+  }
+
+  #row1{
+    margin:0;
+  }
+  /*.footer-nav {
+    white-space:nowrap;
+    margin-left:-10px;
+    margin-top:40px;
+  }*/
+}
+
