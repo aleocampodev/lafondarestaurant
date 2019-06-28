@@ -37,8 +37,6 @@
     "webpack-dev-server": "^3.7.1"
   },
   "dependencies": {
-    "imagemin-pngquant": "^5.0.1",
-    "jquery": "^3.4.1",
-    "waypoint": "^0.2.8"
+    "imagemin-pngquant": "^5.0.1"
   }
 }
