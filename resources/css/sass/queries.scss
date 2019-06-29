@@ -75,9 +75,9 @@
   .row,
   .hero-text-box{padding:0 4%;}
 
-  .hero-text-box{
-    margin-top:10%;
-  }
+/*    margin-top:10%;
+    margin-bottom:15%;
+  }*/
 
   .col{
     width:100%;
@@ -158,6 +158,10 @@
   body{font-size:16px;}
   section{padding:25px 0;}
   .contact-form {width:100%;}
+  .hero-text-box{
+    margin-left:1px;
+    font-size:70%;
+  }
   
   
 
