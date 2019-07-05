@@ -45,6 +45,27 @@
 
   .app-screen {width:50%;}
 
+  .meal-photo{
+    width:100%;
+    margin:0;
+    overflow:hidden;
+    background-color:#000;
+
+    & img{
+        opacity:0.7;
+        width:100%;
+        height:auto;
+        transform:scale(1.15);
+        transition:transform 0.5s ,opacity 0.5s; 
+        
+        &:hover{
+            opacity:1;
+            transform:scale(1.03);
+        }
+    }
+ }
+
+
   .icon-small{
     width:20px;
     margin-right:5px;
@@ -135,6 +156,27 @@
   .app-screen {width:40%;}
   .steps-box:first-child {text-align:center;}
 
+  .meal-photo{
+    width:100%;
+    margin:0;
+    overflow:hidden;
+    background-color:#000;
+
+    & img{
+        opacity:0.7;
+        width:100%;
+        height:auto;
+        transform:scale(1.15);
+        transition:transform 0.5s ,opacity 0.5s; 
+        
+        &:hover{
+            opacity:1;
+            transform:scale(1.03);
+        }
+    }
+  }
+
+
   .work-step div{
     height:40px;
     width:40px;
@@ -166,6 +208,27 @@
   h2{
     font-size:130%;
   }
+
+  .meal-photo{
+    width:100%;
+    margin:0;
+    overflow:hidden;
+    background-color:#000;
+
+    & img{
+        opacity:0.7;
+        width:100%;
+        height:auto;
+        transform:scale(1.15);
+        transition:transform 0.5s ,opacity 0.5s; 
+        
+        &:hover{
+            opacity:1;
+            transform:scale(1.03);
+        }
+    }
+}
+
   
 
   
