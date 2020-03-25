@@ -1,5 +1,5 @@
 # lafondarestaurant
-La fonda restaurant is a responsive food website created without any framework
+La fonda restaurant is a responsive food website created without any js framework
 
 
 ## Demo
