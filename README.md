@@ -11,15 +11,17 @@ If you want to see the page, [enter here](https://lafondarestaurant.netlify.com)
 ## Installation
 
 Install project dependencies:
-
+```bash
 npm install
+```
 
 Command to deploy to production:
-
+```bash
 npm run build
+```
 
 Command to run the web locally:
-
+```bash
 npm run dev
-
+```
 
